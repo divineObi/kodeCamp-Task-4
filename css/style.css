@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizi#ng: border-box;
+    box-sizing: border-box;
    }
    .flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
    
    }
    #section1 h2 {
@@ -15,61 +15,41 @@
     color: #1E1B1B;
    }
    #section1 p {
-    margin-bottom: 40px;
+    margin-bottom: 0.5px;
    }
    .LearnMore {
-    border-radius: 12px;
     background: #FF6433;
+    border-radius: 12px;
     padding: 16px 40px;
     text-decoration: none;
-    color: #FFF;
-    padding: auto;
+    font-size: 18px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+    border: none;
    }
+#section1{
+  width: 40%;
+}
+#section2{
+  width: 40%;
+}
    .big2{
     font-size: 32px;
     font-weight: 700;
     line-height: 48px;
     color: #1E1B1B;
    }
-   .big-circle {
-    background-color: purple;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    border-radius: 50%;
-   }
-   #numbergangan {
-    text-align: center;
-    color: #FFF;
-    line-height: 30px;
-   }
-   .small-circle {
-    width: 60%;
-    height: 60%;
-    opacity: 0.24;
-    position: absolute;
-    bottom: 30%;
-    left: 20%;
-    background-color: #FFF;
-    border-radius: 50%;
-    bottom: -30%;
-   }
+   
    .flexer {
     display: flex;
     flex-direction: column;
     align-items: center;
    }
-   .borderline {
-    width: 0;
-    border-left: 3px dashed orangered;
-    height: 50px;
-   }
-   .flexed {
-       display: flex;
-       text-justify: distribute;
-       justify-content: left;
+  
    }
    #offer-section {
+     margin-top: 30px;
     background-color: #F2F2F2;
   }
   
@@ -78,30 +58,26 @@
     justify-content: center;   
   }
   
-  #offer-section .offer-header h2 {
+  #offer-section h2 {
     font-size: 58px;
     text-align: center;
+    margin-bottom: 50px;
   }
-  #offer-section .offer-header p {
+  #offer-section p {
     font-size: 24px;
-    text-align: center
+    text-align: center;
+    padding-top: 60px;
   }
+ 
   
-  #offer-section .service-offer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-     width: 100%;
-    margin-top: 40px;
+  #offer-section img {
+    width: 80%;
+    margin: auto;
   }
-  
-  #offer-section .service-offer img {
-    width: 100%;
-  }
-  
-  .service-offer .services-render {
-    width: 24.5%;
-  }
+.image-flex{
+  display: flex;
+  justify-content: center;
+}
   
   .learn-more {
     display: flex;
@@ -156,6 +132,7 @@
     display: flex;
     justify-content: space-around;
     padding: 30px;
+    margin-top: 50px;
   }
   #query-section .experience p {
     font-size: 24px;
