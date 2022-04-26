@@ -47,6 +47,10 @@
     align-items: center;
    }
   
+   .flexed {
+       display: flex;
+       text-justify: distribute;
+       justify-content: left;
    }
    #offer-section {
      margin-top: 30px;
@@ -72,6 +76,7 @@
   
   #offer-section img {
     width: 80%;
+    margin: auto;
   }
 .image-flex{
   display: flex;
