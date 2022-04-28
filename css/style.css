@@ -425,7 +425,6 @@ margin-top : 15px;
   text-align: center;
 }
 #FAQ .FAQ-1-container {
-  border: 1px dotted black;
   background: #fff;
   width: 70%;
   margin: auto;
@@ -433,7 +432,6 @@ margin-top : 15px;
   height : 226px;
 }
 #FAQ .FAQ-2-container {
-  border: 1px dotted black;
   background: #fff;
   width: 70%;
   margin: auto;
