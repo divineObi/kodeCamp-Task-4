@@ -39,6 +39,10 @@
     text-decoration: none;
     color: #000;
 }
+.footer-list ul li a {
+    text-decoration: none;
+    color: #fff;
+}
 
 .right-section .navigation {
     border-right: 2px solid #ccc;
@@ -68,6 +72,7 @@
 				display: flex;
 				justify-content: space-around;
 }
+
 #hero-section .text-section{
     width: 45%;
 } 
@@ -92,7 +97,7 @@
     background-image: url("https://i.ibb.co/qWqPPN1/Header-Image-1.png");
     background-size: cover;
     background-position: center;
-    min-height: 68vh;
+    min-height: 60vh;
 }
 
 .text-section h1 {
@@ -227,11 +232,32 @@
     color: #fff;
     border: none;
    }
+   #follow-section .container{
+   			padding-top: 50px;
+   }
 #section1{
   width: 40%;
+  margin-right: 200px;
 }
 #section2{
   width: 40%;
+}
+#follow-section .container .flex #section1 p {
+			font-size: 18px;
+			line-height: 175%;
+			opacity: 0.6;
+			margin-top: 10px;
+}
+#follow-section .container .flex #section2 .flex-again h3 {
+			font-size: 32px;
+			font-weight: 700;
+			margin-top: 10px;
+}
+#follow-section .container .flex #section2 .flex-again p {
+			font-size: 18px;
+			line-height: 175%;
+			opacity: 0.6;
+			margin-top: 10px;
 }
    .big2{
     font-size: 32px;
@@ -244,26 +270,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 20px;
    }
    
-   #section2 .flexer .purpleCirle{
-   background-color: purple;
-   border-radius: 50%;
-   color: white;
-   line-height: 5px;
-   
-   				
-   }
-   
-   #section2 .flex .flexer .orangeLine {
-   border-left:3px dashed orangered ;
-   height: 40px;
-   				
-   }
+
   
-   #offer-section {
-     margin-top: 30px;
+   #offer-section .container {
+    margin-top: 20px;
     background-color: #F2F2F2;
+    height: 900px;
+    width: 100%;
   }
   
   .flex-offer {
@@ -284,7 +300,7 @@
 
 .offers {
   flex-wrap: wrap;
-  margin-top: 40px;
+  margin-top: 25px;
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
@@ -301,7 +317,7 @@
 
 .image-flex img {
   margin-top: 10px;
-  padding-top: 50px
+  padding-top: 50px;
 }
 
 .image-flex:hover{
@@ -319,42 +335,51 @@
     color: black;
     margin-right: 10px;
   }
-  
-  #query-section {
-    background: url("https://i.ibb.co/0Kf4T3B/Image-1.jpg") left no-repeat, url("https://i.ibb.co/LxQwxNr/ov-Gr-EUgrky-E.jpg") right no-repeat;
-   min-height: 100vh;
-    background-size: 50%;
-    background-color:#F2F2F2;
-    position: relative;
+  #query-section .query-container {
+  			height: 500px;
+  			background:#F2F2F2;
   }
-  
-  .query-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  #query-section .query-container .query {
+  			display: flex;
   }
-  
-  .query-contact {
-    background: #FF6433;
-    width: 65.8%;
-    height: auto;
-    padding: 87.10px;
-    margin-top: 135px;
-    margin-right: 125px;
-  
+  #query-section .query-container .query .first-image {
+  			background: url('https://i.ibb.co/0Kf4T3B/Image-1.jpg');
+  			background-repeat: no-repeat;
+  			background-position: left center;
+  			background-size: cover;
+  			width: 60%;
+  			height: 350px;
   }
-  .query-contact h3 {
+    #query-section .query-container .query .first-image .orange-section {
+    			background-color: #ff6433;
+    			height: 350px;
+    		  margin-left: 180px;
+    }
+  #query-section .query-container .query .second-image {
+  			background: url('https://i.ibb.co/LxQwxNr/ov-Gr-EUgrky-E.jpg');
+  			background-repeat: no-repeat;
+  			background-position: right center;
+  			background-size: cover;
+  			width: 40%;
+  			height: 350px;
+  			
+  }
+    #query-section .query-container .query .first-image .orange-section h3 {
     font-size: 48px;
     color: white;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   
-  .query-contact button {
+             #query-section .query-container .query .first-image .orange-section button {
     padding: 14px;
     border-radius: 9px;
     border: none;
     background: #1E1B1B;
     color: white;
     margin-top: 29px;
+    margin-left: 30px;
    
   }
   
@@ -362,10 +387,18 @@
     display: flex;
     justify-content: space-around;
     padding: 30px;
-    margin-top: 50px;
+    background-color:#F2F2F2;
   }
+  
   #query-section .experience p {
-    font-size: 24px;
+    font-size: 32px;
+  }
+  #query-section .experience h1 {
+  	font-size: 64px;		
+  	color: blue;
+  }
+  #brand-services .container {
+  			padding-bottom: 100px;
   }
   
   #brand-services .brand-header {
@@ -394,15 +427,15 @@
   background: #F2F2F2;
 }
 #customer-review .customer-heading h3 {
-  padding-top : 128px;
+  padding-top : 10px;
   text-align: center;
   font-size: 48px;
   font-weight: 700;
   line-height: 67.2px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .customer-review-container {
-  width: 80%;
+  width: 90%;
   height: 300px;
   margin: auto;  
 }
@@ -411,7 +444,7 @@
  
 }
 .custom {
-  border-right: 48px solid  #F2F2F2 ;
+  border-right: 52px solid  #F2F2F2 ;
 }
 
 #customer-review .customer-review-container .customer-review .customer-testimony-with-picture {
@@ -429,7 +462,7 @@
 #customer-review .line {
   display : flex;
   justify-content: center;
-  margin-top: 35px;
+  margin-top: 120px;
 }
 #customer-review .slide {
 display : flex;
@@ -543,10 +576,6 @@ margin-top : 15px;
   color: #FFFFFF;
 
 }
-.footer-list ul li a {
-    text-decoration: none;
-    color: #fff;
-}
 #footer .footer-top-container .footer-left {
   font-weight: 700;
   font-size: 48px;
@@ -576,8 +605,11 @@ margin-top : 15px;
 }
 
 @media(max-width: 768px){
-				.main-header {
+				.road-assistance {
 							display: none;
+				}
+				.right-section ul {
+							flex-direction: column;
 				}
 				.flex-1 {
 								flex-direction: column;
@@ -604,17 +636,52 @@ margin-top : 15px;
 				}
 				#section2 {
 								width: 100%;
+								margin-top: 50px;
+								padding-right: 100px;
+								
+				}
+				#offer-section .container {
+							height: 1350px;
 				}
 				.image-flex {
 								width: 43.5%;
+								height: 200px;
 				}
-				query-1 {
-							 flex-direction: column;
+			
+			 #query-section .query-container .query {
+				  			flex-direction: column;
+				  }
+			 #query-section .query-container .query .first-image {
+			 			width: 100%;
+			 }
+		 	#query-section .query-container .query .second-image {
+							display: none;
 				}
-				#query-section background:url(""){
-								height: 300px;
+				#query-section .query-container .query .first-image .orange-section{
+							margin-left: 80px;
 				}
-				
+				    #query-section .query-container .query .first-image .orange-section h3{
+				    			padding-top: 8px;
+				    }
+				    #query-section .experience {
+				    			flex-wrap: wrap;
+				    }
+				    #query-section .query-container .query .first-image .orange-section button {
+				    			margin-top: 4px;
+				    }
+				    #query-section .experience .experience-header{
+				    			width: 44.5%;
+				    			border-left: 3px solid #F2F2F2;
+				    }
+				     #brand-services .container {
+				     		padding-top: 120px;
+				     }
+				     #customer-review .customer-heading h3 {
+				     			padding-bottom: 100px;
+				     }
+				     .customer-review {
+				     			width: 110%;
+				     }
 				#customer-review flex {
 								flex-direction: column;
 								justify-content: space-between;
@@ -622,6 +689,15 @@ margin-top : 15px;
 				.custom{
 								margin-bottom: 20px;
 								margin-top: 40px;
+								margin-left: 10px;
+								
+				}
+
+				#FAQ h3 {
+							padding-top: 80px;
+				}
+				#FAQ .FAQ-1-container {
+							height: 315px;
 				}
 				#customer-review .line {
 								padding-top: 200px;
@@ -642,6 +718,13 @@ margin-top : 15px;
 								justify-content: space-around;
 								width: 80%;
 				}
+				.footer-bottom-container {
+                background: #1E1B1B;
+        }
+        .footer-list, .footer-bottom-container .footer-icon {
+        			background: #1E1B1B;
+        			margin-top: 0px;
+        }
 	
 }
 
