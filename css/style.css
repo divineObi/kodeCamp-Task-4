@@ -662,6 +662,7 @@ margin-top : 15px;
 				}
 				    #query-section .query-container .query .first-image .orange-section h3{
 				    			padding-top: 3px;
+				    			font-size: 24px;
 				    }
 				    #query-section .experience {
 				    			flex-wrap: wrap;
@@ -674,10 +675,10 @@ margin-top : 15px;
 				    			border-left: 3px solid #F2F2F2;
 				    }
 				     #query-section .experience p {
-                 font-size: 12px;
+                 font-size: 10px;
             }
              #query-section .experience h1 {
-               	font-size: 24px;		
+               	font-size: 18px;		
               	color: blue;
             }
 				     #brand-services .container {
