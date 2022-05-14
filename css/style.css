@@ -888,7 +888,7 @@ margin-top : 15px;
 				     			padding-bottom: 100px;
 				     			justify-content: center;
 						  		margin-left: 40px;
-						  		border-bottom: 52px solid  #F2F2F2 ;
+						  		border-bottom: 32px solid  #F2F2F2 ;
 				     }
 				     .customer-review-container {
 				       height: 700px;
@@ -898,7 +898,7 @@ margin-top : 15px;
 								justify-content: space-evenly;
 			      	}
 			      	#customer-review .line, #customer-review .slide {
-			      	  margin-top: 100px ;
+			      	  margin-top: 50px ;
 			      	}
 			      	
 				#FAQ {
