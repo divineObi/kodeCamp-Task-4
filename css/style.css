@@ -848,7 +848,7 @@ margin-top : 15px;
 				}
 	 #query-section .query-container .query .orange-section h3{
 				    			padding-top: 15px;
-				    			font-size: 32px;
+				    			font-size: 24px;
 				    }
 				    #query-section .experience {
 				    			flex-wrap: wrap;
@@ -904,6 +904,11 @@ margin-top : 15px;
 				#FAQ .FAQ-1-container {
 							height: 350px;
 				}
+				#FAQ .FAQ-1-container p {
+              font-weight: 600;
+            font-size: 18px;
+             color: #939191;
+        }
 				#customer-review .customer-review-container .customer-review .customer-testimony-with-picture {
   width: 80%;
   margin : auto;
