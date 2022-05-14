@@ -448,9 +448,6 @@
   background: #fff;
   border-right: 52px solid  #F2F2F2 ;
 }
-.custom {
-  
-}
 
 #customer-review .customer-review-container .customer-review .customer-testimony-with-picture {
   width: 80%;
@@ -894,6 +891,12 @@ margin-top : 15px;
 				#customer-review flex {
 								flex-direction: column;
 								justify-content: space-evenly;
+			      	}
+			      	#customer-review .line {
+			      	  margin-top: 350px ;
+			      	}
+				#FAQ {
+				  padding-top:500px;
 				}
 				#FAQ h3 {
 							padding-top: 80px;
