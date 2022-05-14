@@ -904,12 +904,13 @@ margin-top : 15px;
 				}
 				#FAQ .FAQ-1-container p {
             font-size: 12px;
+            line-height: 30px;
         }
 				#customer-review .customer-review-container .customer-review .customer-testimony-with-picture {
-  width: 80%;
+             width: 80%;
   margin : auto;
   margin-top :10px;
-  margin-right: 40px;
+  margin-right: 50px;
 }
 #customer-review .customer-review-container .customer-review .customer-testimony-with-picture p {
    margin-top: 35px; 
