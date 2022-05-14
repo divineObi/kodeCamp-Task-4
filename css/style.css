@@ -446,9 +446,10 @@
 }
 .customer-review {
   background: #fff;
+  border-right: 52px solid  #F2F2F2 ;
 }
 .custom {
-  border-right: 52px solid  #F2F2F2 ;
+  
 }
 
 #customer-review .customer-review-container .customer-review .customer-testimony-with-picture {
