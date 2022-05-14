@@ -880,10 +880,11 @@ margin-top : 15px;
 				     }
 				     #customer-review {
 				       height: 1000px;
+				       background-color: #F2F2F2;
 				     }
 
 				     .customer-review {
-				     			width: 125%;
+				     			width: 85%;
 				     			padding-bottom: 100px;
 				     			justify-content: center;
 						  		margin: auto;
