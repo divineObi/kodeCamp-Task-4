@@ -441,7 +441,7 @@
 }
 .customer-review-container {
   width: 90%;
-  height: 600px;
+  height: 400px;
   margin: auto;  
 }
 .customer-review {
@@ -878,19 +878,21 @@ margin-top : 15px;
 				     			padding-top: 0px;
 				     			font-size: 32px;
 				     			margin-bottom: 10px;
+				     			line-height: 40%;
 				     }
 
 				     .customer-review {
 				     			width: 125%;
-				     			padding-bottom: 40px;
+				     			padding-bottom: 100px;
+				     			justify-content: center;
+						  		margin-right: 30px;
 				     }
 				#customer-review flex {
 								flex-direction: column;
-								justify-content: space-between;
+								justify-content: space-around;
 				}
 				.custom{
-								justify-content: center;
-								margin-right: 30px;
+								
 				}
 
 				#FAQ h3 {
