@@ -358,14 +358,14 @@
     #query-section .query-container .query .orange-section {
     			background-color: #ff6433;
     			height: 350px;
-    			width: 40%;
+    			width: 50%;
     }
   #query-section .query-container .query .second-image {
   			background: url('https://i.ibb.co/LxQwxNr/ov-Gr-EUgrky-E.jpg');
   			background-repeat: no-repeat;
   			background-position: right center;
   			background-size: cover;
-  			width: 40%;
+  			width: 30%;
   			height: 350px;
   			
   }
@@ -442,11 +442,12 @@
 }
 .customer-review-container {
   width: 90%;
-  height: 300px;
+  height: 600px;
   margin: auto;  
 }
 .customer-review {
   background: #fff;
+  padding-bottom: 300px;
  
 }
 .custom {
