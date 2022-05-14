@@ -763,9 +763,7 @@ margin-top : 15px;
                 font-size: 32px;
         }
         
-        #quote-section {
-        			padding: 0px 0;
-        }
+        
         #quote-section .left-section .image-box {
         			margin-right: 0px;
         }
@@ -779,7 +777,7 @@ margin-top : 15px;
 								width: 100%;
 				}
 				#quote-section .right-form-section {
-								width: 100%;
+								width: 60%;
 								margin-left: 40px;
 				}
 				
@@ -847,7 +845,7 @@ margin-top : 15px;
 							width: 100%;
 				}
 	 #query-section .query-container .query .orange-section h3{
-				    			padding-top: 15px;
+				    			padding-top: 30px;
 				    			font-size: 24px;
 				    }
 				    #query-section .experience {
@@ -883,10 +881,10 @@ margin-top : 15px;
 				     #customer-review .customer-heading h3 {
 				     			padding-bottom: 50px;
 				     			font-size: 32px;
-				     			margin-bottom: 30px;
+				     			margin-bottom: 10px;
 				     }
 				     .customer-review {
-				     			width: 130%;
+				     			width: 125%;
 				     }
 				#customer-review flex {
 								flex-direction: column;
@@ -905,9 +903,7 @@ margin-top : 15px;
 							height: 350px;
 				}
 				#FAQ .FAQ-1-container p {
-              font-weight: 600;
-            font-size: 18px;
-             color: #939191;
+            font-size: 12px;
         }
 				#customer-review .customer-review-container .customer-review .customer-testimony-with-picture {
   width: 80%;
