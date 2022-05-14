@@ -879,8 +879,8 @@ margin-top : 15px;
 				     			line-height: 100%;
 				     }
 				     #customer-review {
-				       height: 1200px;
-				       color: #F2F2F2;
+				       height: 1000px;
+				       background-color #F2F2F2;
 				     }
 
 				     .customer-review {
@@ -891,14 +891,14 @@ margin-top : 15px;
 						  		border-bottom: 30px solid  #F2F2F2 ;
 				     }
 				     .customer-review-container {
-				       height: 700px;
+				       height: 600px;
 				     }
 				#customer-review flex {
 								flex-direction: column;
 								justify-content: space-evenly;
 			      	}
 			      	#customer-review .line, #customer-review .slide {
-			      	  margin-top: 50px ;
+			      	  margin-top: 0 ;
 			      	}
 			      	
 				#FAQ {
