@@ -777,12 +777,12 @@ margin-top : 15px;
 								width: 100%;
 				}
 				#quote-section .right-form-section {
-								width: 60%;
-								margin-left: 40px;
+								width: 80%;
+								margin-left: 50px;
 				}
 				
         #quote-section .right-form-section h3{
-              font-size: 40px;
+              font-size: 32px;
               margin-bottom: 19px;
         }
         #quote-section .container .flex-1 .left-section .flex {
@@ -900,7 +900,7 @@ margin-top : 15px;
 							font-size: 32px;
 				}
 				#FAQ .FAQ-1-container {
-							height: 400px;
+							height: 250px;
 				}
 				#FAQ .FAQ-1-container p {
             font-size: 12px;
