@@ -873,12 +873,16 @@ margin-top : 15px;
             #brand-services .brand-images-section .brand-images {
                  width: 48.5%;
                  height: 50px;
-  }
+             }
+             
 				     #customer-review .customer-heading h3 {
-				     			padding-top: 0px;
+				     			padding-top: 0;
 				     			font-size: 32px;
 				     			margin-bottom: 10px;
-				     			line-height: 40%;
+				     			line-height: 80%;
+				     }
+				     #customer-review {
+				       height: 1000px;
 				     }
 
 				     .customer-review {
@@ -889,12 +893,8 @@ margin-top : 15px;
 				     }
 				#customer-review flex {
 								flex-direction: column;
-								justify-content: space-around;
+								justify-content: space-evenly;
 				}
-				.custom{
-								
-				}
-
 				#FAQ h3 {
 							padding-top: 80px;
 							font-size: 32px;
