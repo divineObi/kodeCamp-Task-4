@@ -886,14 +886,17 @@ margin-top : 15px;
 				     			width: 125%;
 				     			padding-bottom: 100px;
 				     			justify-content: center;
-						  		margin-right: 30px;
+						  		margin: auto;
+				     }
+				     .customer-review-container {
+				       height: 700px;
 				     }
 				#customer-review flex {
 								flex-direction: column;
 								justify-content: space-evenly;
 			      	}
 			      	#customer-review .line, #customer-review .slide {
-			      	  margin-top: 500px ;
+			      	  margin-top: 800px ;
 			      	}
 			      	
 				#FAQ {
