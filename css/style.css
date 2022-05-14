@@ -448,7 +448,6 @@
 .customer-review {
   background: #fff;
   padding-bottom: 300px;
- 
 }
 .custom {
   border-right: 52px solid  #F2F2F2 ;
@@ -881,8 +880,12 @@ margin-top : 15px;
 				     			font-size: 32px;
 				     			margin-bottom: 10px;
 				     }
+				     #customer-review .container {
+				       
+				     }
 				     .customer-review {
 				     			width: 125%;
+				     			padding-bottom: 40px;
 				     }
 				#customer-review flex {
 								flex-direction: column;
@@ -898,7 +901,7 @@ margin-top : 15px;
 							font-size: 32px;
 				}
 				#FAQ .FAQ-1-container {
-							height: 250px;
+							height: 280px;
 				}
 				#FAQ .FAQ-1-container p {
             font-size: 12px;
