@@ -431,6 +431,7 @@
 #customer-review {
   background: #F2F2F2;
   height: 400px;
+  padding-bottom: 300px;
 }
 #customer-review .customer-heading h3 {
   padding-top : 10px;
@@ -447,7 +448,6 @@
 }
 .customer-review {
   background: #fff;
-  padding-bottom: 300px;
 }
 .custom {
   border-right: 52px solid  #F2F2F2 ;
@@ -843,13 +843,13 @@ margin-top : 15px;
 				}
 	 #query-section .query-container .query .orange-section h3{
 				    			padding-top: 30px;
-				    			font-size: 32px;
+				    			font-size: 40px;
 				    }
 				    #query-section .experience {
 				    			flex-wrap: wrap;
 				    }
 				    #query-section .query-container .query .orange-section button {
-				    			margin-top: 8px;
+				    			margin-top: 15px;
 				    }
 				    #query-section .experience .experience-header{
 				    			width: 44.5%;
@@ -880,9 +880,7 @@ margin-top : 15px;
 				     			font-size: 32px;
 				     			margin-bottom: 10px;
 				     }
-				     #customer-review .container {
-				       
-				     }
+
 				     .customer-review {
 				     			width: 125%;
 				     			padding-bottom: 40px;
