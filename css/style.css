@@ -792,16 +792,15 @@ margin-top : 15px;
 				}
 				#section1 h2 {
                 font-size: 40px;
-                line-height: 58px;
+                line-height: 40px;
                 font-weight: 800;
                 color: #1E1B1B;
         }
 				#section2 {
 								width: 100%;
 								margin-top: 50px;
-								padding-right: 30px;
 								
-				}
+								}
 				#follow-section .container .flex #section2 .flex-again h3 {
 			        font-size: 32px;
 		         	font-weight: 700;
